@@ -1,5 +1,7 @@
 # GoodData.UI SDK
 
+# QA change
+
 ## Getting Started
 
 The easiest way to start developing analytical applications using GoodData.UI SDK is to use
