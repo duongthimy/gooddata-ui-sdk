@@ -56,6 +56,12 @@ export const ExampleWithSource: React.FC<IExampleWithSourceProps> = ({
                 >
                     source code
                 </button>
+                <button
+                    className={`gd-button gd-button-secondary button-dropdown`}
+                    // onClick={toggle}
+                >
+                    code
+                </button>
                 {hidden ? (
                     ""
                 ) : (
