@@ -1,4 +1,4 @@
-// (C) 2020 GoodData Corporation
+// (C) 2020-2021 GoodData Corporation
 import {
     modifyMeasure,
     newArithmeticMeasure,
@@ -38,6 +38,7 @@ export const quarterDateLocalId = "quarter";
 export const franchiseSalesComputeRatioLocalId = "franchiseSalesComputeRatio";
 export const sumOfNumberLocalId = "a73e984d10e84156bcca68b5b70f0d2c";
 export const nameAttributeLocalId = "e8e31d6083c44de9b9bcdd84def972f7";
+export const totalSalesHasLocalIdentifier = "totalSalesLocalidentifier";
 
 // ===============================================================================================
 
@@ -101,6 +102,14 @@ export const TotalSales3 = modifySimpleMeasure(Ldm.$TotalSales, (m) =>
 );
 export const TotalCosts = modifyMeasure(Ldm.$TotalCosts, (m) =>
     m.format("#,##0").alias("$ Total Costs").localId(totalCostsLocalId),
+);
+
+export const TotalSalesWithoutFormatMeasure = modifyMeasure(Ldm.$TotalSales, (m) =>
+    m.format("$#,##0").alias("$ Total Sales without Format measure").title("Total Sales"),
+);
+
+export const TotalSalesHasLocalId = modifyMeasure(Ldm.$TotalSales, (m) =>
+    m.alias("$ Total Sales").title("Total Sales").localId(totalSalesHasLocalIdentifier),
 );
 
 export const EmployeeName = modifyAttribute(Ldm.EmployeeName.Default, (a) => a.localId(EmployeeNameLocalId));

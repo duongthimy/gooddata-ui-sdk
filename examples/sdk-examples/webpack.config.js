@@ -35,7 +35,7 @@ function SimplestProgressPlugin() {
 }
 
 module.exports = async (env, argv) => {
-    const backendParam = (env && env.backend) || "public";
+    const backendParam = (env && env.backend) || "stg3";
 
     const basePath = (env && env.basePath) || ""; // eslint-disable-line no-mixed-operators
     const backendUrl = backendShortcuts[backendParam] || backendParam;

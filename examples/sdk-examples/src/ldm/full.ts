@@ -1,4 +1,4 @@
-// (C) 2020 GoodData Corporation
+// (C) 2020-2021 GoodData Corporation
 
 /* eslint-disable */
 /* THIS FILE WAS AUTO-GENERATED USING CATALOG EXPORTER; YOU SHOULD NOT EDIT THIS FILE; GENERATE TIME: 2020-11-20T07:34:13.883Z; */
@@ -4937,4 +4937,20 @@ export const Insights = {
      * Insight Title: # Checks viewed by City stacked by Location - Table
      * Insight ID: aaJlFFkiaChA
      */ NrChecksViewedByCityStackedByLocationTable: "aaJlFFkiaChA",
+    ThemePivotTable: "aajtbFCjaGNx",
+    ThemeColumnChart: "aagtcVbMa1KO",
+    ThemeBarChart: "aafojj3Ghzc2",
+    ThemeLineChart: "aactcSuwgbKt",
+    ThemeStackedAreaChart: "aagtcvobf5v5",
+    ThemeComboChart: "aaytaNVQfEz3",
+    ThemeScatterPlot: "aajta5iDfs5R",
+    ThemeBubble: "aahtcaWraRfq",
+    ThemePie: "aagtbFCjaGNx",
+    ThemeDonut: "aaetcSuwgbKt",
+    ThemeTreemap: "aahtcBWWaZwL",
+    ThemeHeatmap: "aagtcBZVf6l4",
+    ThemeBullet: "aaitbFCjaGNx",
+    ThemeXIRR: "aamtcaWraRfq",
+    ThemeHeadline: "aagtcSuwgbKt",
+    ThemeGeochart: "aaitcvobf5v5",
 };
