@@ -44,6 +44,7 @@ import { WithSubRoutes } from "../components/WithSubRoutes";
 import { AboutThisProject } from "../components/AboutThisProject";
 
 import SimpleDashboardView from "../examples/dashboardEmbedding/SimpleDashboardView";
+import DashboardViewSchedualEmail from "../examples/dashboardEmbedding/DashboardViewSchedualEmail";
 import DashboardViewWithCustomCharts from "../examples/dashboardEmbedding/DashboardViewWithCustomCharts";
 import DashboardViewWithFilters from "../examples/dashboardEmbedding/DashboardViewWithFilters";
 import DashboardViewWithMergedFilters from "../examples/dashboardEmbedding/DashboardViewWithMergedFilters";
@@ -99,6 +100,11 @@ export const dashboardViewUseCasesRoutes = [
         path: "/dashboardView/simple",
         title: "Simple",
         Component: SimpleDashboardView,
+    },
+    {
+        path: "/dashboardView/schedual-email",
+        title: "SchedualEmail",
+        Component: DashboardViewSchedualEmail,
     },
     {
         path: "/dashboardView/with-filters",

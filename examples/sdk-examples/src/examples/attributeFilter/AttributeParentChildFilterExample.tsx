@@ -30,7 +30,13 @@ export const AttributeParentChildFilterExample: React.FC = () => {
     return (
         <div className="s-attribute-filter">
             <AttributeFilter
-                filter={newPositiveAttributeFilter(attributeDisplayFormRef(Ldm.LocationState), { uris: [] })}
+                filter={newPositiveAttributeFilter(attributeDisplayFormRef(Ldm.LocationState), {
+                    uris: [
+                        "/gdc/md/y2lwt04m1kb3r4mlclsu39tmvf935vy9/obj/2210/elements?id=6340109",
+                        "/gdc/md/y2lwt04m1kb3r4mlclsu39tmvf935vy9/obj/2210/elements?id=6340116",
+                        "/gdc/md/y2lwt04m1kb3r4mlclsu39tmvf935vy9/obj/2210/elements?id=6340105",
+                    ],
+                })}
                 fullscreenOnMobile={false}
                 onApply={setParentFilter}
             />
